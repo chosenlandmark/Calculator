@@ -1,0 +1,96 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    height: 40%;
+    border: 12px solid rgb(36, 35, 35);
+    border-bottom: 15px solid rgb(36, 35, 35);
+    border-top: 17px solid rgb(36, 35, 35);
+    border-radius: 5%;
+}
+
+.display{
+    padding-top: 10%;
+    border:10px solid rgb(185, 185, 185);
+    background-color: rgb(196, 194, 194);
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.numbers{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.rowOne,
+.rowTwo,
+.rowThree,
+.rowFour{
+    display: flex;
+    flex: 1;
+}
+/* These are the styles for the numbers buttons */
+.number{
+    flex: 1;
+    background-color: orange;
+    padding: 3%;
+    border: .5px solid rgb(185, 185, 185);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.number:hover{
+    background-color: rgb(255, 205, 113);
+   
+}
+.number:active{
+    background-color: rgb(189, 123, 1);
+}
+
+/* These are the styles for the operator buttons */
+.operators{
+    flex:.3;
+    display: flex;
+}
+.operator{
+    flex: 1;
+    background-color: skyblue;
+    padding: 3%;
+    border: .5px solid rgb(185, 185, 185);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}ss
+.operator:hover{
+    background-color: rgb(175, 225, 245);
+    
+}
+.operator:active{
+    background-color: rgb(65, 190, 240);
+}
+
+/* These are the styles for the equals and clear buttons */
+#clear,#equals{
+    flex: 1;
+    background-color: rgb(184, 87, 184);
+    padding: 3%;
+    border: .5px solid rgb(185, 185, 185);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#equals:hover{
+    background-color: rgb(233, 144, 233);
+}
+#equals:active{
+    background-color: rgb(117, 62, 117);
+}
+
+#clear:hover{
+    background-color: rgb(233, 144, 233);
+}
+#clear:active{
+    background-color: rgb(117, 62, 117);
+}
