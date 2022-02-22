@@ -8,19 +8,18 @@ body{
 .container{
     display: flex;
     flex-direction: column;
-    width: 10%;
-    height: 40%;
-    border: 12px solid rgb(36, 35, 35);
+    width: 30%;
+    border: 1px solid black ;
+    /* border: 12px solid rgb(36, 35, 35);
     border-bottom: 15px solid rgb(36, 35, 35);
-    border-top: 17px solid rgb(36, 35, 35);
-    border-radius: 5%;
+    border-top: 17px solid rgb(36, 35, 35); */
+    /* border-radius: 5%; */
 }
 
 .display{
-    padding-top: 10%;
-    border:10px solid rgb(185, 185, 185);
-    background-color: rgb(196, 194, 194);
-    font-size: 25px;
+    padding-top: 20%;
+    background-color: rgb(237, 237, 237);
+    font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .numbers{
@@ -42,7 +41,7 @@ body{
     padding: 3%;
     border: .5px solid rgb(185, 185, 185);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   
+   font-size: 24px;
 }
 .number:hover{
     background-color: rgb(255, 205, 113);
@@ -63,8 +62,8 @@ body{
     padding: 3%;
     border: .5px solid rgb(185, 185, 185);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}ss
+    font-size: 24px;
+}
 .operator:hover{
     background-color: rgb(175, 225, 245);
     
